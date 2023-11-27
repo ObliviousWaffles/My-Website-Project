@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+.meme-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.meme {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
